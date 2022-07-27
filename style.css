@@ -1,3 +1,14 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.footer-clss {
+  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: black;
+}
+.footer-clss a {
+  text-decoration: none;
+  color: white;
 }
