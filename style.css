@@ -12,3 +12,32 @@ body {
   text-decoration: none;
   color: white;
 }
+.custom-filter {
+  filter: brightness(50%);
+}
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: initial;
+  top: 50%;
+}
+@media only screen and (max-width: 576px) {
+  .carousel-mobile h1 {
+    font-size: 25px;
+    margin: 5px;
+    padding: 0;
+  }
+  .carousel-mobile p {
+    font-size: 10px;
+    margin: 5px;
+    padding: 0;
+  }
+  .carousel-caption {
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+  }
+  .freq {
+    width: 100% !important;
+    margin: auto;
+  }
+}
