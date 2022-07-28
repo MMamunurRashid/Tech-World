@@ -20,7 +20,7 @@ body {
   bottom: initial;
   top: 50%;
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 766px) {
   .carousel-mobile h1 {
     font-size: 25px;
     margin: 5px;
@@ -35,6 +35,21 @@ body {
     transform: translateY(-50%);
     bottom: initial;
     top: 50%;
+  }
+  .Explore-w {
+    width: 100% !important;
+  }
+  .freq {
+    width: 100% !important;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .Explore-img {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 340px !important;
+    height: 550px !important;
   }
   .freq {
     width: 100% !important;
