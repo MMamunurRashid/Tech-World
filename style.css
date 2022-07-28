@@ -2,6 +2,26 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: initial;
+  top: 50%;
+}
+.course-section {
+  margin-top: 100px;
+}
+.Explore-section {
+  margin-top: 100px;
+}
+.Ready-section {
+  margin-top: 100px;
+}
+.freq {
+  margin-top: 100px;
+}
+.Trusted-section {
+  margin-top: 100px;
+}
 .footer-clss {
   margin-top: 50px;
   padding-top: 100px;
@@ -14,11 +34,6 @@ body {
 }
 .custom-filter {
   filter: brightness(50%);
-}
-.carousel-caption {
-  transform: translateY(-50%);
-  bottom: initial;
-  top: 50%;
 }
 
 @media only screen and (max-width: 766px) {
@@ -44,6 +59,9 @@ body {
   .freq {
     width: 100% !important;
     margin: auto;
+  }
+  .text-clss {
+    text-align: center;
   }
 }
 @media only screen and (min-width: 767px) and (max-width: 991px) {

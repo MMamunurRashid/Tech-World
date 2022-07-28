@@ -47,16 +47,23 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#shoes">Courses</a>
+                <a class="nav-link active" href="#courses">Courses</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#backpack">Success</a>
+                <a class="nav-link active" href="#explore">Success</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#watch">About</a>
+                <a class="nav-link active" href="#freq">About</a>
               </li>
               <li class="nav-item">
-                <div class="btn btn-secondary">Register</div>
+                <a class="nav-link active" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <div class="btn btn-secondary">
+                  <a class="text-decoration-none text-dark" href="#ready"
+                    >Register</a
+                  >
+                </div>
               </li>
             </ul>
           </div>
@@ -152,7 +159,7 @@
     </header>
     <main>
       <!-- our courses start -->
-      <section class="container">
+      <section id="courses" class="container course-section">
         <div class="text-center mt-5">
           <h1>
             Discover Our Popular <br />
@@ -304,7 +311,8 @@
 
       <!-- Explore E-lerning start -->
       <section
-        class="container mt-5 p-0 d-flex flex-lg-row flex-md-row flex-column justify-content-center align-items-center bg-light mb-5"
+        id="explore"
+        class="container p-0 d-flex flex-lg-row flex-md-row flex-column justify-content-center align-items-center bg-light mb-5 Explore-section"
       >
         <div class="w-50 Explore-w">
           <img class="w-100 Explore-img" src="images/working.png" alt="" />
@@ -341,7 +349,8 @@
       <!-- Explore E-lerning end -->
       <!-- Ready To join start -->
       <section
-        class="container mt-5 mb-5 p-5 bg-primary text-light text-lg-start text-center border rounded-3 d-flex flex-lg-row flex-md-column flex-column justify-content-evenly align-items-center"
+        id="ready"
+        class="container mb-5 p-5 bg-primary text-light text-lg-start text-center border rounded-3 d-flex flex-lg-row flex-md-column flex-column justify-content-evenly align-items-center Ready-section"
       >
         <div>
           <h1>Ready to join?</h1>
@@ -408,8 +417,83 @@
       </section>
       <!-- Ready To join end -->
 
+      <!--  start  -->
+      <section class="container">
+        <div>
+          <h1>Meet Our Successfull Students</h1>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </div>
+        <div>
+          <div class="row g-3">
+            <div class="col-lg-3 col-sm-12 col-md-6">
+              <div class="border rounded-3 bg-light d-flex flex-column">
+                <div>
+                  <img
+                    class="w-100"
+                    src="images/student/student-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="p-3 text-clss">
+                  <h4>Awlad Hossain</h4>
+                  <p>UIUX Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+              <div class="border rounded-3 bg-light d-flex flex-column">
+                <div>
+                  <img
+                    class="w-100"
+                    src="images/student/student-2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="p-3 text-clss">
+                  <h4>Jannatul Islam</h4>
+                  <p>Motion Design</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+              <div class="border rounded-3 bg-light d-flex flex-column">
+                <div>
+                  <img
+                    class="w-100"
+                    src="images/student/student-3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="p-3 text-clss">
+                  <h4>Imran Hossain</h4>
+                  <p>Graphic Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+              <div class="border rounded-3 bg-light d-flex flex-column">
+                <div>
+                  <img
+                    class="w-100"
+                    src="images/student/student-4.png"
+                    alt=""
+                  />
+                </div>
+                <div class="p-3 text-clss">
+                  <h4>Nishi Akter</h4>
+                  <p>Web Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Meet Our Successfull Students end -->
       <!-- Frequently Asked Questions start -->
-      <section class="container mt-5 w-50 mx-auto freq">
+      <section id="freq" class="container w-50 mx-auto freq">
         <div class="text-center">
           <h1>Frequently Asked Questions</h1>
           <p class="opacity-75">
@@ -548,7 +632,7 @@
       <!-- Frequently Asked Questions end -->
 
       <!-- Trusted company start  -->
-      <section class="container d-none d-lg-block mt-5">
+      <section class="container d-none d-lg-block Trusted-section">
         <div>
           <h1 class="text-center mb-4">Trusted by over 800+ companies</h1>
         </div>
@@ -563,16 +647,24 @@
       </section>
       <!-- Trusted company end -->
       <!-- footer start  -->
-      <footer class="footer-clss text-center text-light">
+      <footer id="footer" class="footer-clss text-center text-light">
         <h3>Tech World</h3>
         <p>Uttara-10, Dhaka-1230, Dhaka, Bangladesh</p>
         <a href="">Privacy Ploicy | Terms of use</a>
 
         <div class="d-flex justify-content-center pt-3">
-          <div class="ps-4"><i class="fa-brands fa-twitter"></i></div>
-          <div class="ps-4"><i class="fa-brands fa-square-facebook"></i></div>
-          <div class="ps-4"><i class="fa-brands fa-youtube"></i></div>
-          <div class="ps-4"><i class="fa-brands fa-linkedin"></i></div>
+          <div class="ps-4">
+            <a href="#footer"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <div class="ps-4">
+            <a href="#footer"><i class="fa-brands fa-square-facebook"></i></a>
+          </div>
+          <div class="ps-4">
+            <a href="#footer"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+          <div class="ps-4">
+            <a href="#footer"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
         </div>
       </footer>
       <!-- footer end -->
